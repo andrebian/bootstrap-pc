@@ -11,6 +11,11 @@ apt-get install -y apache2 php5 php-auth php-codecoverage php-invoker php-pear c
 echo "- Ok"
 echo ""
 
+echo "Criando link simbólico para libudev.so (Util para instalar o Koala)"
+ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
+echo ""
+echo "- Ok"
+
 echo "Copiando o conteúdo de www (Demora pacas)"
 echo ""
 # www 
