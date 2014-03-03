@@ -64,6 +64,7 @@ git config --global user.email "andrecardosodev@gmail.com"
 git config --global user.name "Andre Cardoso"
 git config --global push.default matching
 git branch --set-upstream-to=origin/master
+git config --global color.ui true
 echo "- Ok"
 echo ""
 
