@@ -15,6 +15,13 @@ echo "Criando link simbólico para libudev.so (Util para instalar o Koala)"
 ln -sf /lib/i386-linux-gnu/libudev.so.1 /lib/i386-linux-gnu/libudev.so.0
 echo ""
 echo "- Ok"
+echo ""
+
+echo "Instalando Java para navegadores"
+echo ""
+apt-get install icedtea-7-plugin icedtea-netx icedtea-netx-common
+echo "- Ok"
+echo ""
 
 echo "Copiando o conteúdo de www (Demora pacas)"
 echo ""
