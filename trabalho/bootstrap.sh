@@ -7,7 +7,7 @@ echo ""
 echo "Instalando vários pacotes"
 echo ""
 # PHP e devs
-apt-get install -y apache2 php5 php-auth php-codecoverage php-invoker php-pear curl php5-curl php5-imagick php5-mcrypt php5-mysql php5-pgsql php5-sqlite php5-xdebug phpmyadmin mysql-client-5.5 mysql-server-5.5 mysql-workbench mysql-utilities openjdk-7-jdk git gitk
+apt-get install -y apache2 php5 php-auth php-codecoverage php-invoker php-pear curl php5-curl php5-imagick php5-mcrypt php5-mysql php5-pgsql php5-sqlite php5-xdebug phpmyadmin mysql-client-5.5 mysql-server-5.5 mysql-workbench mysql-utilities openjdk-7-jdk git gitk fabric
 echo "- Ok"
 echo ""
 
@@ -19,7 +19,7 @@ echo ""
 
 echo "Instalando Java para navegadores"
 echo ""
-apt-get install icedtea-7-plugin icedtea-netx icedtea-netx-common
+apt-get install icedtea-7-plugin icedtea-netx icedtea-netx-common 
 echo "- Ok"
 echo ""
 
